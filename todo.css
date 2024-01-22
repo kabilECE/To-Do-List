@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Arvo', serif;
+}
+body{
+    background-color: rgb(250, 218, 221);
+}
+.head{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    text-align: center;
+    padding: 20px; 
+}
+.head_1{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    
+}
+.head_1 h1{
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.icon li{
+    display: inline;
+    margin-right: 20px;   
+}
+.icon button{
+    height:30px;
+    width: 60px;
+    background-color: #008080;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border-width: 2px;
+    border-color: black;
+}
+.icon{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    padding: 20px;
+    margin: 10px;
+}
+.todo_body{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.todo_body h3{
+    text-transform: capitalize;
+}
+.todo_textbox{
+    display: flex;
+    border-radius: 10px;
+}
+.todo_textbox input{
+    margin-top: 10px;
+    height: 50px;
+    width: 90%;
+    border-style: solid;
+    color: #ff02a6;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    padding-inline-start: 20px;
+}
+.todo_textbox button{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 75px;
+    background-color: #008080;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    
+}
+.todo_body li{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text_box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    height: 50px;
+    width: 80%;
+    font-weight: bolder;
+    margin-top: 25px;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+.edit{
+    height:30px;
+    width: 60px;
+    background-color: #008080;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border-width: 2px;
+    border-color: black;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.delete{
+    height:30px;
+    width: 60px;
+    background-color: #008080;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border-width: 2px;
+    border-color: black;
+    margin-left: 20px;
+    font-weight: bolder;
+}
